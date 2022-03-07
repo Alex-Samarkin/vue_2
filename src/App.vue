@@ -1,13 +1,13 @@
 <script setup>
-{/* Это строка комментария */}
-{/* import HelloWorld from './components/HelloWorld.vue' */}
-{/* import TheWelcome from './components/TheWelcome.vue' */}
 import comp1 from './components/comp1.vue';
+import comp2 from './components/comp2.vue';
 </script>
 
 <template>
   <comp1 header1='Этот заголовок N1 задан параметром' />
   <comp1 header1='Этот заголовок N2 задан параметром' header2='Подзаголовок, задан вторым параметром'/>
+  
+  <comp2 />
 </template>
 
 <style>
