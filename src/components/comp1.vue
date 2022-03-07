@@ -13,10 +13,19 @@ defineProps({
 </script>
 
 <template>
-    <h1>{{header1}}</h1>
+    <h1 class='title'>{{header1}}</h1>
     <hr />
-    <h3>{{header2}}</h3>
+    <h3 class='subtitle'>{{header2}}</h3>
 </template>
 
 <style scoped>
+    .title {
+        font-size: 28px;
+        color: blueviolet;
+        }
+    .subtitle{
+        font-size: 20px;
+        color: darkblue;
+        background-color: beige;
+        }
 </style>
